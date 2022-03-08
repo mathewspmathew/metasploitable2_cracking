@@ -1,0 +1,29 @@
+Step 1: Setting up VM ware environment
+      : download and install it. 
+      : download iso file of Kali Linux and Metasploitable2 and add that to VM ware 
+      
+Step 2: Make sure that both the OS are connected on same network.
+      : We are using NAT. Go on to settngs and connect to that in both OS.
+      Now we are half way done !
+      
+Step 3: Open both OS at same time
+      : scan using ifconfig
+      now we have got our IP address
+      
+      :Scan our network-
+          eg - sudo nmap -sV -O 192.268.0/24
+      : Vulnerability OS(Mestaploitable) is displayed and its vulnerabilities.
+
+Step 4: Open msfconsole 
+      : Search for the exploit of which vulnerability found
+      : Use the exploit
+      : set RHOST as the targated machine
+      : type run command
+      
+      Here we go!
+      
+      The shell is found and exoplore the OS
+      
+      
+      
+      (video tutorial is givin as another file)
